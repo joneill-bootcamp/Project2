@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Tippy@321.",
+    "database": "burgers",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "Tippy@321.",
+    "database": "burgers",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql",
+    "username": "dt1dtdliwg7ojqld",
+    "password": "nrhywtiw7det8vil",
+    "host": "ijj1btjwrd3b7932.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "logging": false
+  }
+}
