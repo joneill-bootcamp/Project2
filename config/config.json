@@ -1,16 +1,16 @@
 {
   "development": {
     "username": "root",
-    "password": "Tippy@321.",
-    "database": "burgers",
+    "password": "",
+    "database": "covid",
     "host": "127.0.0.1",
     "port": 3306,
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": "Tippy@321.",
-    "database": "burgers",
+    "password": "",
+    "database": "covid",
     "host": "127.0.0.1",
     "port": 3306,
     "dialect": "mysql"
