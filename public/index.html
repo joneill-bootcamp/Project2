@@ -41,24 +41,59 @@
             </div>
             <form class="create-form text-center">
               <div class="form-group">
-                <label for="graph">Choose your Graph</label>
-                <select data-placeholder="" id="choices" name="choices">
+                <label for="country-choice">Choose a country</label>
+                <textarea class="form-control" id="country" rows="1"></textarea>
+              </div>
+              <br />
+              <br />
+              <div class="form-group">
+                <select data-placeholder="" id="time-choice" name="time-choice">
                   <option value="Nothing Selected" selected
-                    >Choose a style</option
+                    >Choose a timeframe</option
+                  >
+                  <option value="day">Day</option>
+                  <option value="week">Week</option>
+                  <option value="month">Month</option>
+                </select>
+              </div>
+              <br />
+              <br />
+              <div class="form-group">
+                <select
+                  data-placeholder=""
+                  id="graph-choice"
+                  name="graph-choice"
+                >
+                  <option value="Nothing Selected" selected
+                    >Choose a graph style</option
                   >
                   <option value="bar">Bar Chart</option>
                   <option value="donut">Donut Chart</option>
                   <option value="pie">Pie Chart</option>
                 </select>
-
+                <br />
+                <br />
                 <button
                   type="button"
                   class="addchoice btn btn-success"
                   id="addchoice"
                 >
-                  <span class="fa fa-bar-chart"></span>
+                  Create my graph <span class="fa fa-bar-chart"></span>
                 </button>
               </div>
+              <br />
+              <br />
+              <div>
+                <button
+                  type="button"
+                  class="addchoice btn btn-success"
+                  id="addchoice"
+                >
+                  Save my Search <span class="fa fa-bookmark"></span>
+                </button>
+              </div>
+              <br />
+              <br />
             </form>
           </div>
         </div>
@@ -73,7 +108,6 @@
           </div>
         </div>
       </div>
-      <!--endrow -->
     </div>
     <!-- Custom Script -->
     <script
