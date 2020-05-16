@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "",
+    "password": " ",
     "database": "covid",
     "host": "127.0.0.1",
     "port": 3306,
@@ -18,9 +18,9 @@
   "production": {
     "use_env_variable": "JAWSDB_URL",
     "dialect": "mysql",
-    "username": "",
-    "password": "",
-    "host": "",
+    "username": "t3wheul498laypn0",
+    "password": "j0aqigqpy21vilz9",
+    "host": "qn66usrj1lwdk1cc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "port": 3306,
     "logging": false
   }
