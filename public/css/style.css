@@ -27,3 +27,11 @@ body {
   margin-bottom: 1em;
   font-size: 1.3em;
 }
+
+.form-group,
+#save-button {
+  width: 90%;
+  display: inline-block;
+  float: none;
+  margin: 0 auto;
+}
