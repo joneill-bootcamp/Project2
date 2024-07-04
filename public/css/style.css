@@ -28,7 +28,8 @@ body {
   font-size: 1.3em;
 }
 
-.form-group {
+.form-group,
+#save-button {
   width: 90%;
   display: inline-block;
   float: none;
